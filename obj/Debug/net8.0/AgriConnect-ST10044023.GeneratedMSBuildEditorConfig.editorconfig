@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\vaugh\source\repos\AgriConnect-ST10044023
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/vaugh/source/repos/AgriConnect-ST10044023/Views/Employee/CreateFarmer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlRmFybWVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/vaugh/source/repos/AgriConnect-ST10044023/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,8 +34,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/vaugh/source/repos/AgriConnect-ST10044023/Views/Login/MainPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTWFpblBhZ2UuY3NodG1s
+[C:/Users/vaugh/source/repos/AgriConnect-ST10044023/Views/Login/MainPageEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTWFpblBhZ2VFbXBsb3llZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/vaugh/source/repos/AgriConnect-ST10044023/Views/Login/MainPageFarmer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTWFpblBhZ2VGYXJtZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/vaugh/source/repos/AgriConnect-ST10044023/Views/Shared/Error.cshtml]

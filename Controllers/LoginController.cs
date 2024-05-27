@@ -9,35 +9,47 @@ namespace AgriConnect_ST10044023.Controllers
         {
             return View();
         }
+
         public IActionResult MainPage()
         {
-            // Retrieve the student based on the stored EmpID in the session
-            Employee loggedEmployee = Employee.GetEmployeeID(EmployeeIDSession.GetEmployeeID);
+            string userID = EmployeeIDSession.GetEmployeeID;
+            string userType = EmployeeIDSession.GetUserType;
 
-            // Return the MainPage view with the Employee data
-            return View(loggedEmployee);
-        }
-        [HttpPost]
-        public IActionResult ProcessLogin(Employee employee)
-        {
-            Employee loggedEmployee = Employee.GetEmployeeID(employee.empID);
-
-            if (loggedEmployee != null && employee.empPassword == loggedEmployee.empPassword)
+            if (userType == "Employee")
             {
-                // Successful login, assign employee ID to session
-                EmployeeIDSession.assignID(loggedEmployee.empID);
-                return RedirectToAction("MainPage"); // Redirect to the main page after successful login
+                Employee loggedEmployee = Employee.GetEmployeeByID(userID);
+                return View("MainPageEmployee", loggedEmployee);
+            }
+            else if (userType == "Farmer")
+            {
+                Farmer loggedFarmer = Farmer.GetFarmerByID(userID);
+                return View("MainPageFarmer", loggedFarmer);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult ProcessLogin(UserLogin userLogin)
+        {
+            Employee loggedEmployee = Employee.GetEmployeeByID(userLogin.UserID);
+            Farmer loggedFarmer = Farmer.GetFarmerByID(userLogin.UserID);
+
+            if (loggedEmployee != null && userLogin.Password == loggedEmployee.Password)
+            {
+                EmployeeIDSession.AssignID(loggedEmployee.EmpID, "Employee");
+                return RedirectToAction("MainPage");
+            }
+            else if (loggedFarmer != null && userLogin.Password == loggedFarmer.Password)
+            {
+                EmployeeIDSession.AssignID(loggedFarmer.FarmerID, "Farmer");
+                return RedirectToAction("MainPage");
             }
             else
             {
-                // Clear textboxes
                 ModelState.Clear();
-
-                // Add a model error for displaying an error message in the view
-                ModelState.AddModelError(string.Empty, "Invalid EmpID or Password. Please try again.");
-
-                // Return to the login page (Index) with the model containing any errors
-                return View("Index", employee);
+                ModelState.AddModelError(string.Empty, "Invalid ID or Password. Please try again.");
+                return View("Index", userLogin);
             }
         }
     }

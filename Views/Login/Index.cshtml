@@ -1,4 +1,4 @@
-﻿@model AgriConnectLibrary.Employee
+﻿@model AgriConnectLibrary.UserLogin
 
 <html lang="en">
 <head>
@@ -108,22 +108,22 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="form-group">
-                <label asp-for="empID" class="control-label">Employee/Farmer ID:</label>
-                <input asp-for="empID" class="form-control" required />
-                <span asp-validation-for="empID" class="text-danger"></span>
+                <label asp-for="UserID" class="control-label">Employee/Farmer ID:</label>
+                <input asp-for="UserID" class="form-control" required />
+                <span asp-validation-for="UserID" class="text-danger"></span>
             </div>
 
             <div class="form-group">
-                <label asp-for="empPassword" class="control-label">Password:</label>
+                <label asp-for="Password" class="control-label">Password:</label>
                 <div class="input-group">
-                    <input asp-for="empPassword" class="form-control" type="password" id="passwordInput" required />
+                    <input asp-for="Password" class="form-control" type="password" id="passwordInput" required />
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <input type="checkbox" onclick="togglePasswordVisibility()" style="width: 20px; height: 20px;"> Show
                         </div>
                     </div>
                 </div>
-                <span asp-validation-for="empPassword" class="text-danger"></span>
+                <span asp-validation-for="Password" class="text-danger"></span>
             </div>
 
             <div class="form-group">

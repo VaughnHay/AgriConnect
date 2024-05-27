@@ -3,25 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|c:\\users\\vaugh\\source\\repos\\agriconnect-st10044023\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|c:\\users\\vaugh\\source\\repos\\agriconnect-st10044023\\views\\employee\\createfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|solutionrelative:views\\employee\\createfarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1F795E0-06B3-4895-9559-3933455855D2}|..\\AgriConnectLibrary\\AgriConnectLibrary.csproj|c:\\users\\vaugh\\source\\repos\\agriconnectlibrary\\farmer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|c:\\users\\vaugh\\source\\repos\\agriconnect-st10044023\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1F795E0-06B3-4895-9559-3933455855D2}|..\\AgriConnectLibrary\\AgriConnectLibrary.csproj|c:\\users\\vaugh\\source\\repos\\agriconnectlibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1F795E0-06B3-4895-9559-3933455855D2}|..\\AgriConnectLibrary\\AgriConnectLibrary.csproj|c:\\users\\vaugh\\source\\repos\\agriconnectlibrary\\employeeidsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|c:\\users\\vaugh\\source\\repos\\agriconnect-st10044023\\views\\login\\mainpageemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|solutionrelative:views\\login\\mainpageemployee.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|c:\\users\\vaugh\\source\\repos\\agriconnect-st10044023\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|c:\\users\\vaugh\\source\\repos\\agriconnect-st10044023\\views\\login\\mainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|solutionrelative:views\\login\\mainpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|c:\\users\\vaugh\\source\\repos\\agriconnect-st10044023\\views\\login\\mainpagefarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|solutionrelative:views\\login\\mainpagefarmer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|c:\\users\\vaugh\\source\\repos\\agriconnect-st10044023\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F795E0-06B3-4895-9559-3933455855D2}|..\\AgriConnectLibrary\\AgriConnectLibrary.csproj|c:\\users\\vaugh\\source\\repos\\agriconnectlibrary\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1F795E0-06B3-4895-9559-3933455855D2}|..\\AgriConnectLibrary\\AgriConnectLibrary.csproj|c:\\users\\vaugh\\source\\repos\\agriconnectlibrary\\employeeidsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9230EC6D-57EC-4E53-BEBC-C32861DF268F}|AgriConnect-ST10044023.csproj|c:\\users\\vaugh\\source\\repos\\agriconnect-st10044023\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +51,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,72 +59,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Farmer.cs",
-              "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnectLibrary\\Farmer.cs",
-              "RelativeDocumentMoniker": "..\\AgriConnectLibrary\\Farmer.cs",
-              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnectLibrary\\Farmer.cs",
-              "RelativeToolTip": "..\\AgriConnectLibrary\\Farmer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T12:29:30.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAANAAAA",
+              "DocumentIndex": 0,
+              "Title": "CreateFarmer.cshtml",
+              "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Employee\\CreateFarmer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\CreateFarmer.cshtml",
+              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Employee\\CreateFarmer.cshtml",
+              "RelativeToolTip": "Views\\Employee\\CreateFarmer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T12:05:11.563Z",
+              "WhenOpened": "2024-05-27T13:20:18.438Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:08:44.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPageFarmer.cshtml",
+              "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Login\\MainPageFarmer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\MainPageFarmer.cshtml",
+              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Login\\MainPageFarmer.cshtml",
+              "RelativeToolTip": "Views\\Login\\MainPageFarmer.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T12:48:22.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPageEmployee.cshtml",
+              "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Login\\MainPageEmployee.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\MainPageEmployee.cshtml",
+              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Login\\MainPageEmployee.cshtml",
+              "RelativeToolTip": "Views\\Login\\MainPageEmployee.cshtml",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAwGcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T12:47:55.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EmployeeIDSession.cs",
               "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnectLibrary\\EmployeeIDSession.cs",
               "RelativeDocumentMoniker": "..\\AgriConnectLibrary\\EmployeeIDSession.cs",
               "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnectLibrary\\EmployeeIDSession.cs",
               "RelativeToolTip": "..\\AgriConnectLibrary\\EmployeeIDSession.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T14:59:03.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainPage.cshtml",
-              "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Login\\MainPage.cshtml",
-              "RelativeDocumentMoniker": "Views\\Login\\MainPage.cshtml",
-              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Login\\MainPage.cshtml",
-              "RelativeToolTip": "Views\\Login\\MainPage.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAGoAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-23T14:36:22.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnectLibrary\\Employee.cs",
               "RelativeDocumentMoniker": "..\\AgriConnectLibrary\\Employee.cs",
               "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnectLibrary\\Employee.cs",
               "RelativeToolTip": "..\\AgriConnectLibrary\\Employee.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAuwDcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-23T14:17:19.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Connections.cs",
               "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnectLibrary\\Connections.cs",
               "RelativeDocumentMoniker": "..\\AgriConnectLibrary\\Connections.cs",
@@ -127,20 +149,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
               "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Controllers\\LoginController.cs",
               "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-22T06:41:07.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -152,16 +174,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
               "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAHcAAAAAAAAAAAAAwJYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-05-22T06:41:30.183Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T12:05:11.563Z"
             }
           ]
         }
