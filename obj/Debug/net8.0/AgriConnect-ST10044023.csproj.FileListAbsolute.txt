@@ -143,3 +143,4 @@ C:\Users\vaugh\source\repos\AgriConnect-ST10044023\obj\Debug\net8.0\refint\AgriC
 C:\Users\vaugh\source\repos\AgriConnect-ST10044023\obj\Debug\net8.0\AgriConnect-ST10044023.pdb
 C:\Users\vaugh\source\repos\AgriConnect-ST10044023\obj\Debug\net8.0\AgriConnect-ST10044023.genruntimeconfig.cache
 C:\Users\vaugh\source\repos\AgriConnect-ST10044023\obj\Debug\net8.0\ref\AgriConnect-ST10044023.dll
+C:\Users\vaugh\source\repos\AgriConnect-ST10044023\obj\Debug\net8.0\AgriConnect-ST10044023.sourcelink.json

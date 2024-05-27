@@ -1,5 +1,6 @@
 ﻿@model AgriConnectLibrary.Employee
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,47 +25,8 @@
 
         .navbar {
             width: 100%;
-            position: absolute;
-            top: 0;
-            right: 0;
         }
 
-        .container {
-            text-align: center;
-            background-color: rgba(0, 0, 0, 0.2);
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .menu {
-            background-color: #333;
-            overflow: hidden;
-        }
-
-            .menu a {
-                float: left;
-                color: #f2f2f2;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-size: 17px;
-            }
-
-                .menu a:hover {
-                    background-color: lightpink;
-                    color: black;
-                }
-
-                .menu a.active {
-                    background-color: #04AA6D;
-                    color: white;
-                }
-
-                .menu a.split {
-                    float: right;
-                    background-color: #04AA6D;
-                    color: white;
-                }
 
         h4 {
             margin-bottom: 1rem;
@@ -78,33 +40,34 @@
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">AgriConnect</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/">About Us</a>
+                    <a class="nav-link" href="/CaptureModule/DisplayData">Create Farmer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Privacy">Privacy</a>
+                    <a class="nav-link" href="/CaptureModule/DisplayData">View Farmer Profiles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/CaptureModule/Chart">View Products</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" data-toggle="modal" data-target="#helpModal">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Login">Logout</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="container">
-        <h4>Please Select An Option Below</h4>
-        <div class="menu">
-            <a href="/CaptureModule">Create Farmer</a>
-            <a href="/CaptureModule/DisplayData">View List of products</a>
-            <a href="/CaptureModule/Chart">View Chart</a>
-            <a href="/Login" class="split">Logout</a>
-            <a href="#" data-toggle="modal" data-target="#helpModal" class="split">Help</a>
-        </div>
-        <div class="message">
-            <p>Welcome, @Model.empName @Model.empSurname! To This Student Application</p>
-        </div>
-    </div>
 
     <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -117,10 +80,10 @@
                 </div>
                 <div class="modal-body" style="color: black;">
                     <h5>Welcome to the AgriConnect Application!</h5>
-                    <p>This application is designed to help you intergrate new energy saving fetaures into your existing agriculture. Her is how to use the application:</p>
+                    <p>This application is designed to help you integrate new energy-saving features into your existing agriculture. Here is how to use the application:</p>
 
                     <strong>Green Energy:</strong>
-                    <p>Blah Blah"</p>
+                    <p>Blah Blah</p>
                     <p>Blah Blah</p>
 
                     <strong>Create Farmer:</strong>
@@ -133,7 +96,7 @@
                     <p>If you want to log out, simply click on "Logout" in the menu. This will securely end your session.</p>
 
                     <strong>Help:</strong>
-                    <p>For additional assistance on how to use specific features or navigate the application or if you have any furthur questions feel free to email me at: st10044023@vcconnect.edu.za</p>
+                    <p>For additional assistance on how to use specific features or navigate the application or if you have any further questions feel free to email me at: st10044023@vcconnect.edu.za</p>
 
                     <p>Thank you for using the AgriConnect Application!</p>
                 </div>
