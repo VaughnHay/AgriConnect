@@ -1,0 +1,151 @@
+﻿@model AgriConnectLibrary.Employee
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Application</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-image: url('/images/Tree.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+
+        .navbar {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .menu {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+            .menu a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .menu a:hover {
+                    background-color: lightpink;
+                    color: black;
+                }
+
+                .menu a.active {
+                    background-color: #04AA6D;
+                    color: white;
+                }
+
+                .menu a.split {
+                    float: right;
+                    background-color: #04AA6D;
+                    color: white;
+                }
+
+        h4 {
+            margin-bottom: 1rem;
+        }
+
+        .message {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">AgriConnect</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Privacy">Privacy</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h4>Please Select An Option Below</h4>
+        <div class="menu">
+            <a href="/CaptureModule">Create Farmer</a>
+            <a href="/CaptureModule/DisplayData">View List of products</a>
+            <a href="/CaptureModule/Chart">View Chart</a>
+            <a href="/Login" class="split">Logout</a>
+            <a href="#" data-toggle="modal" data-target="#helpModal" class="split">Help</a>
+        </div>
+        <div class="message">
+            <p>Welcome, @Model.empName @Model.empSurname! To This Student Application</p>
+        </div>
+    </div>
+
+    <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="helpModalLabel">Help</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="color: black;">
+                    <h5>Welcome to the AgriConnect Application!</h5>
+                    <p>This application is designed to help you intergrate new energy saving fetaures into your existing agriculture. Her is how to use the application:</p>
+
+                    <strong>Green Energy:</strong>
+                    <p>Blah Blah"</p>
+                    <p>Blah Blah</p>
+
+                    <strong>Create Farmer:</strong>
+                    <p>Create a farmer using the fields.</p>
+
+                    <strong>View Product List:</strong>
+                    <p>View all products with their remaining hours.</p>
+
+                    <strong>Logout:</strong>
+                    <p>If you want to log out, simply click on "Logout" in the menu. This will securely end your session.</p>
+
+                    <strong>Help:</strong>
+                    <p>For additional assistance on how to use specific features or navigate the application or if you have any furthur questions feel free to email me at: st10044023@vcconnect.edu.za</p>
+
+                    <p>Thank you for using the AgriConnect Application!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
