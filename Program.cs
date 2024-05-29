@@ -29,11 +29,6 @@ namespace AgriConnect_ST10044023
                 app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Login}/{action=Index}/{id?}");
-
-                // Main controller route
-                endpoints.MapControllerRoute(
-                    name: "main",
-                    pattern: "{controller=Login}/{action=MainPage}/{id?}");
             });
 
             app.Run();

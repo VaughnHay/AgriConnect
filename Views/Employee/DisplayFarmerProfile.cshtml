@@ -1,10 +1,10 @@
-﻿@model AgriConnectLibrary.Farmer
+﻿@model IEnumerable<AgriConnectLibrary.Farmer>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Main Application</title>
+    <title>Farmer Profiles</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
         body {
@@ -27,15 +27,28 @@
             width: 100%;
         }
 
-
-        h4 {
-            margin-bottom: 1rem;
+        h2 {
+            margin-top: 1rem;
+            color: #fff;
         }
 
-        .message {
+        .table {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+        }
+
+            .table th, .table td {
+                text-align: center;
+                vertical-align: middle;
+                color: white; /* Ensure all text in table is white */
+            }
+
+        .container {
             text-align: center;
-            font-size: 24px;
-            margin-top: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 5rem;
         }
     </style>
 </head>
@@ -48,13 +61,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/CaptureModule/DisplayData">Create Product</a>
+                    <a class="nav-link" href="@Url.Action("CreateFarmer", "Employee")">Create Farmer</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/CaptureModule/DisplayData">View Employee Profiles</a>
+                    <a class="nav-link" href="@Url.Action("DisplayFarmerProfile", "Employee")">View Farmer Profiles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/CaptureModule/Chart">View Products</a>
+                    <a class="nav-link" href="@Url.Action("DisplayProducts", "Employee")">View Products</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -68,6 +81,30 @@
         </div>
     </nav>
 
+    <div class="container">
+        <h2>Farmer Profiles</h2>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Farmer ID</th>
+                    <th>Employee ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var farmer in Model)
+                {
+                    <tr>
+                        <td>@farmer.FarmerID</td>
+                        <td>@farmer.EmpID</td>
+                        <td>@farmer.Name</td>
+                        <td>@farmer.Email</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
 
     <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -81,23 +118,17 @@
                 <div class="modal-body" style="color: black;">
                     <h5>Welcome to the AgriConnect Application!</h5>
                     <p>This application is designed to help you integrate new energy-saving features into your existing agriculture. Here is how to use the application:</p>
-
                     <strong>Green Energy:</strong>
                     <p>Blah Blah</p>
                     <p>Blah Blah</p>
-
                     <strong>Create Farmer:</strong>
                     <p>Create a farmer using the fields.</p>
-
                     <strong>View Product List:</strong>
                     <p>View all products with their remaining hours.</p>
-
                     <strong>Logout:</strong>
                     <p>If you want to log out, simply click on "Logout" in the menu. This will securely end your session.</p>
-
                     <strong>Help:</strong>
                     <p>For additional assistance on how to use specific features or navigate the application or if you have any further questions feel free to email me at: st10044023@vcconnect.edu.za</p>
-
                     <p>Thank you for using the AgriConnect Application!</p>
                 </div>
                 <div class="modal-footer">

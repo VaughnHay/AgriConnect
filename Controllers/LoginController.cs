@@ -18,12 +18,12 @@ namespace AgriConnect_ST10044023.Controllers
             if (userType == "Employee")
             {
                 Employee loggedEmployee = Employee.GetEmployeeByID(userID);
-                return View("MainPageEmployee", loggedEmployee);
+                return View("~/Views/Employee/MainPageEmployee.cshtml", loggedEmployee);
             }
             else if (userType == "Farmer")
             {
                 Farmer loggedFarmer = Farmer.GetFarmerByID(userID);
-                return View("MainPageFarmer", loggedFarmer);
+                return View("~/Views/Farmer/MainPageFarmer.cshtml", loggedFarmer);
             }
 
             return RedirectToAction("Index");

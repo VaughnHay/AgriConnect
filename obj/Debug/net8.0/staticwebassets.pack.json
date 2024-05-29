@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\AgriConnect-ST10044023.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\wwwroot\\Images\\Agri Photo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Agri Photo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\wwwroot\\Images\\AgriBackground.jpg",
+      "PackagePath": "staticwebassets\\Images\\AgriBackground.jpg"
+    },
+    {
       "Id": "C:\\Users\\vaugh\\source\\repos\\AgriConnect-ST10044023\\wwwroot\\Images\\Tree.jpg",
       "PackagePath": "staticwebassets\\Images\\Tree.jpg"
     },

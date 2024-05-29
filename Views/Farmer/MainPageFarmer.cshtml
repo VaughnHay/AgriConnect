@@ -1,4 +1,4 @@
-﻿@model AgriConnectLibrary.Employee
+﻿@model AgriConnectLibrary.Farmer
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: 'Lato', sans-serif;
-            background-image: url('/images/Tree.jpg');
+            background-image: url('/images/AgriBackground.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -48,13 +48,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/CreateFarmer">Create Farmer</a>
+                    <a class="nav-link" href="@Url.Action("CreateProduct", "Farmer")">Create Product</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/DisplayFarmerProfile">View Farmer Profiles</a>
+                    <a class="nav-link" href="@Url.Action("DisplayEmployeeProfile", "Farmer")">Employee Profiles</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/DisplayProducts">View Products</a>
+                    <a class="nav-link" href="@Url.Action("DisplayOwnProducts", "Farmer")">View Your Products</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
